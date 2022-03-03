@@ -19,7 +19,7 @@ services:
     privileged: true
     user: root
     environment:
-      - ROOT_URL=http://arm1.jiangxicheng.xyz:3000
+      - ROOT_URL=http://127.0.0.1:3000
       - MONGO_URL=mongodb://mongo:27017/rocketchat
       - MONGO_OPLOG_URL=mongodb://mongo:27017/local
     ports:
